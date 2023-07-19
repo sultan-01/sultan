@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#texturals{
+    display: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-header{
+    display: flex;
+    background-color: white;
+    padding: 25px 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+header .logo{
+padding: 0 10px;
+border-top: 3px solid green;
+border-left: 3px solid green;
+transition-property: all;
+transition-timing-function: ease-in;
+    
+}
+header .logo:hover{
+    transform:rotate(2deg) ;
+}
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+main{
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,.9), rgba(0, 0, 0, 0.689)), url( img/burgerx.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 80% ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/eggs.JPG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 150px;
+    border: 2px solid wheat;
+    
+}
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-cont h1{
+    font-size: 3em;
+    padding: 0.2em 0;
+}
+.main-cont button{
+    padding:8px 30px;
+    background-color: transparent;
+    color: wheat;
+    border: 2px solid white;
+
+}
+.main-cont p{
+    padding: 0 0 10px 0;
+    width: 50%;
+    font-size: 1em;
+    text-align: center;
+}
+#page2{
+    background-color: rgba(164, 106, 106, 0.279);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#page2 .bread-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1em 0 ;
+}
+.bread-1 h2{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bread-1 h2{
+font-size: 4em;
+}
+.bread-1 p{
+    width: 70%;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1.3em;
+   line-height: 25px;
+}
+.bread-2, .bread-3{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.bread-2{
+    margin-bottom: 4em;
+}
+#page2 .our-bread {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    
+}
+.our-bread-1{
+   background-image: url(img/burger-a\ \(2\).JPG);
+    
+}
+.our-bread-2{
+    background-image: url(img/burger-b.JPG);
+    
+}
+.our-bread-3{
+background-image: url(img/burger-c.JPG);
+    
+}
+.our-bread-4{
+    background-image: url(img/burger-d.JPG);
+    
+}
+.our-bread-5{
+     background-image: url(img/burger-e.JPG);
+
+}
+.our-bread-6{
+background-image: url(img/burger-f.JPG);
+    
+}
+
+
+.bread-available-1, .bread-available-6, .bread-available-2, .bread-available-3, .bread-available-4, .bread-available-5{
+    text-align: center;
+    
+}
+
+.bread-2 h3, .bread-3 h3{
+    padding: 15px 0;
+}
+.bread-2 p, .bread-3 p{
+    padding: 15px 0;
+}
+.bread-2 h4, .bread-3 h4{
+    padding: 5px 0;
+    color: rgb(245, 168, 75);
+}
+#page3{
+    background-color: rgba(0, 0, 0, 0.491);
+    min-height: 80vh;
+    display: flex;
+   flex-direction: column;
+}
+.page3-header{
+    border-bottom: 2px solid bisque;
+    text-align: center;
+    padding: 10px 0;
+}
+.brown-pastries {
+    display: flex;
+    column-gap: 100px;
+    gap: 25px;
+    justify-content: center;
+    margin: 10px 0;
+}
+.brown-pastries div{
+    flex-basis: 5%;
+    background-color: white; 
+   text-align: center;    
+   padding: 30px 19px;
+}
+.bp-img{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    
+}
+.bp-img-1{
+    background-image: url(img/burger-a\ \(2\).JPG);
+}
+.bp-img-2{
+    background-image: url(img/burger-b.JPG);
+}
+.bp-img-3{
+    background-image: url(img/burger-c.JPG);
+}
+.bp-img-4{
+   background-image: url(img/burger-d.JPG); 
+}
+.bp-img-5{
+   background-image: url(img/burger-e.JPG); 
+}
+.bp-img-6{
+  background-image: url(img/burger.JPG);  
+}
+.bp-img-7{
+background-image: url(img/burger-f.JPG);    
+}
+.bp-img-8{
+    background-image: url(img/eggs.JPG);
+}
+.brown-pastries h3{
+    padding: 15px 0;
+}
+.brown-pastries p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 2ch;
+}
+.brown-pastries a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid rgb(1, 46, 1);
+    margin-top: 25px;
+}
+
+#page-4{
+    background-image: linear-gradient(rgba(10, 3, 3, 0.7), rgba(15, 2, 2, 0.689)), url(./img/burger-b.JPG);
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+#sweets{
+    color: bisque;
+    padding: 10px 0;
+}
+.cso{
+    display: flex;  
+    column-gap: 20px;
+
+}
+.cso section{
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+}
+.cso h3{
+    font-size: 1.7;
+    padding-bottom: 9px;
+}
+.cso ul{
+    list-style: '-';
+}
+.cso li{
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.477);
+    line-height: 30px;
+}
+
+
+
+#wewouldliketohearfromyou{
+min-height: 60vh;
+background-color: rgb(132, 148, 111);
+padding: 40px 0 0 0    ;  
+}
+.wwlthfy-img{
+    min-height: 40vh;
+    background-image: url(img/mee.JPG) ;
+    background-position: center;
+    background-size: cover;
+    flex-basis: 40%;
+   
+}
+#wwlthfy-inner{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.wwlthfy-text{
+    background-color: white;
+    flex-basis: 60%;
+    padding: 32px 16px;
+  
+}
+.wwlthfy-text h1{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.wwlthfy-text p{
+    color: black;
+    padding: 0.5em 0;
+    font-size: 1.0em;
+    line-height: 23px;
+}
+.wwlthfy-text h5{
+    font-size: 2.1em;
+    
+}
+
+.b-c-p-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 40px;
+    position: absolute;
+    top: -100px;
+   
+}
+.b-c-p-wrapper section{
+    flex-basis: 20%;
+}
+.bcp-img{
+    min-height: 400px;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.bcp-img-1{
+    background-image: url(img/burger-a\ \(2\).JPG);
+}
+.bcp-img-2{
+background-image: url(img/burger-f.JPG);
+}
+.bcp-img-3{
+background-image: url(img/eggs.JPG);
+}
+.b-c-p-wrapper h2{
+    font-size: 2em;
+    padding: 1em ;
+}
+.b-c-p-wrapper p{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+#breadcookiepastries{
+    position: relative;
+}
+
+footer{
+    background-color: black;
+    padding: 2em 0;
+    position: relative;
+    margin-top: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#headerfooter_img{
+    width: 150px;
+    height: 150px;
+    background-image: url(./img/eggs.JPG);
+    background-size: cover;
+    background-position: center;
+    border-radius: 150px;
+    border: 2px solid wheat;
+
+}
+#footer_text{
+    display: flex;
+    gap: 80px;
+    padding: 3.5em 0 0 0;
+}
+#footer_text{
+    color: wheat;
+}
+#footer_text a{
+    text-decoration: none;
+    color: wheat;
+    gap: 100px;
+}
+#footer_text h2{
+color: green;
+padding-top: 20px;
+padding-bottom: 30px;
+text-transform: capitalize;
+}
+small{
+    color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+small span{
+    color: brown;
+    border-bottom: 2px solid brown;
+}
+
+
+
+
+
+
+
+@media (max-width:1075px){
+    #page2{
+        background-color: lightsalmon;
+    }
+
+    .bread-1 h2{
+        font-size: 5vw;
+    }
+
+    .bread-2, .bread-3{
+       flex-direction: column;
+       width: 100%;
+       align-items: center;
+    }
+
+    #page2 .our-bread {
+        width: 300px;
+        height: 300px;
+        
+    }
+    .bread-2 h3, .bread-3 h3{
+        padding: 15px 0;
+        font-size: 4vw;
+    }
+    .bread-2 p, .bread-3 p{
+        padding: 15px 0;
+        font-size: 3vw;
+        font-weight: bold;
+    }
+    .bread-2 h4, .bread-3 h4{
+        padding: 0px 0 25px 0;
+        font-size: 4em;
+        color: #333;
+    }
+
+    /* PAGE 3 */
+
+    .brown-pastries {
+       flex-direction: column;
+       width: 90%;
+       margin: 10px auto;
+    }
+
+    .brown-pastries div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bp-img{
+        width: 250px;
+        height: 250px;
+
+        
+    }
+
+    .brown-pastries h3{
+        padding: 15px 0;
+        font-size: 4vw;
+    }
+    .brown-pastries p{
+        font-size: 3vw;
+        font-weight: bold;
+    }
+
+    #page-4{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 20px;
+
+}
+
+#sweets{
+    color: bisque;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 3em;
+}
+.cso{
+    flex-direction: column;
+    margin: 10px auto;
+
+}
+.cso section{
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.cso h3{
+    font-size: 2.7em;
+    padding-bottom: 9px;
+}
+
+.cso li{
+    font-size: 1.7em;
+}
+#wwlthfy-inner{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
+    color: #fff !important;
+}
+#wwlthfy-inner p{
+    color: #edf;
+}
+.wwlthfy-img{
+    width: 100%;
+}
+
+.wwlthfy-text{
+    background-color: #000;
+    width: 100%;
+    flex-basis: 40%;
+    padding: 12px 10px;
+    color:#fff;
+  
+}
+#wwlthfy-inner h5{
+    text-align: center;
+    color: lightgreen;
+}
+.b-c-p-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    top: 10px;
+   
+}
+.b-c-p-wrapper h2{
+    font-size: 2.4em;
+    padding: 1em ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.b-c-p-wrapper p{
+    font-size: 1.3em;
+    line-height: 25px;
+}
+footer{
+    margin-top: 220%;
+}
+#footer_text{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+@media (max-width:685px) {
+    footer{
+        margin-top: 450%;
+    }
+
+    .main-cont p{
+        width: 90%;
+    }
+
+    h1{
+        font-size: 2em !important;
+    }
+    h2{
+        font-size: 1.2em !important;
+    }
+    p{
+        font-size: 1.em !important;
+    }
+    h4{
+        font-size: 2em !important;
+    }
+    h3{
+        font-size: 2.2em !important;
+    }
+
+    i{
+        font-size: 1.5em !important;
+    }
+
+    .main-header nav{
+        display: none;
+    }
+
+    #texturals{
+        display: block;
+        color: blue;
+    }
+
+    .bread-1 h2{
+        font-size: 6vw !important;
+    }
+
+    .b-c-p-wrapper{
+        background-color: #333;
+        color: #edf222;
+    }
+
+    .b-c-p-wrapper p{
+        color: white !important;
+    }
+
+}
